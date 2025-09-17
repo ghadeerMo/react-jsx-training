@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-zinc-900 dark:text-white;
+}
+h1 {
+  @apply p-6 border border-black dark:border-white;
+}
