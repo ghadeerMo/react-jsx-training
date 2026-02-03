@@ -28,7 +28,7 @@ export default function AddTask({ tasks, setTasks }) {
         />
         <button>Add</button>
       </form>
-      <ul>
+      <ul className="task-list">
         {tasks.map((task, index) => {
           return (
             <li key={index} className="task">
